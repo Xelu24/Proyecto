@@ -65,6 +65,11 @@ p{
     display: block;
 }
 
+.menua{
+    display: flex;
+    position: relative;
+    top: 10%;
+    justify-content: center;}
 .menu a:hover{text-decoration:underline;}
 
 .menu li:hover{
