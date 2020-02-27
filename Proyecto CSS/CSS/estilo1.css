@@ -1,4 +1,5 @@
 html{font-family: Arial, Helvetica, sans-serif;}
+
 #Contenedor{
     display: flex;
     flex-direction:column;
@@ -9,11 +10,18 @@ html{font-family: Arial, Helvetica, sans-serif;}
     margin: 0px;
 }
 .encabezado{width: 100%;}
+
 h1{color:rgb(6, 21, 120);}
 
 
 body{margin: 0px;
 background-color: rgb(201,207,252);}
+
+.Titulo{display: flex;
+    position: relative;
+    top: 10%;
+    justify-content: center;
+    }
 
 header{
     text-align: center;
@@ -26,8 +34,12 @@ header{
 #pini{
     text-align: center;
     padding-top: 20px;
+    color:rgb(6, 21, 120);
+    
 }
-p{text-align: center;}
+p{
+    text-align: center;
+    color:rgb(6, 21, 120);}
 
 .menu{
     display: flex;
@@ -57,8 +69,6 @@ p{text-align: center;}
     background-color:rgb(6, 21, 120);
 }
 
-p{color:rgb(6, 21, 120);}
-
 fieldset{margin-top: 30px;}
 
 input{
@@ -71,6 +81,7 @@ input{
     }
 
 legend{
+    text-align: center;
     font-weight:bold;
     color:rgb(6, 21, 120);}
 
@@ -84,19 +95,18 @@ textarea{
     border-radius: 4px;}
 input[type=submit]
 {
-    width: 360px;
-    padding: 20px 20px;
+    width: 200px;
+    padding: 10px 10px;
     display: block;
     margin: auto;
-    margin-top: 10px;
-    border: 1px solid #ccc;
+    border: 1px;
     border-radius: 4px;
     color: rgb(6, 21, 120);
     background-color: rgb(138, 152, 249);
     box-shadow: 1px 1px 1px rgb(6, 21, 120);}
     fieldset{
-border:0px solid white
-}
+    border:0px solid white
+    }
 
 input[type=submit]:hover{
     cursor: pointer;
