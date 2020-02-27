@@ -1,21 +1,12 @@
 html{font-family: Arial, Helvetica, sans-serif;}
 
-#Contenedor{
-    display: flex;
-    flex-direction:column;
-    width: 100%;
-    background-attachment: fixed;
-    height: 900px;
-    border: 0px;
-    margin: 0px;
-}
 .encabezado{width: 100%;}
 
 h1{color:rgb(6, 21, 120);}
 
-
 body{margin: 0px;
-background-color: rgb(201,207,252);}
+background-color: rgb(201,207,252);
+height: 900px;}
 
 .Titulo{display: flex;
     position: relative;
@@ -70,6 +61,7 @@ p{
     position: relative;
     top: 10%;
     justify-content: center;}
+
 .menu a:hover{text-decoration:underline;}
 
 .menu li:hover{
