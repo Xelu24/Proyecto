@@ -65,6 +65,8 @@ p{
     display: block;
 }
 
+.menu a:hover{color: black;}
+
 .menu li:hover{
     background-color:rgb(6, 21, 120);
 }
