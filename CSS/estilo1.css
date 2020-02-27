@@ -65,7 +65,7 @@ p{
     display: block;
 }
 
-.menu a:hover{color: black;}
+.menu a:hover{text-decoration:underline;}
 
 .menu li:hover{
     background-color:rgb(6, 21, 120);
