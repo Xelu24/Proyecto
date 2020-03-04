@@ -1,2 +1,2 @@
 # Proyecto
-Index.html
+index.html
