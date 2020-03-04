@@ -1,4 +1,4 @@
-/*html{font-family: Arial, Helvetica, sans-serif;}
+html{font-family: Arial, Helvetica, sans-serif;}
 
 .encabezado{width: 100%;}
 
@@ -346,50 +346,4 @@ article {
         }
         
         }
- */
-
-#nav-menu-pc{
-    display: none;
-}
-#nav-menu-movil{
-    /* margin: auto; */
-    width: 210px;
-    /* margin-right: 100%; */
-    display: block;
-    align-items: left;
-}
-#nav-menu-movil ul,li{
-    list-style: none;
-}
-#menu-desple *{
-    background-color: rgb(138, 152, 249);
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-    font-weight:bold;
-}
-#menu-desple *:hover{
-    background-color:rgb(6, 21, 120);
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-}
-#menu-desple li ul{
-    display: none;
-    position: absolute;
-    min-width: 110px;
-}
-#menu-desple li:hover > ul {
-    display: block
-}
-#menu-desple > li {
-    float: left;
-}
-.menu ,ul {
-    padding-left: 15px;
-}
-#menu-desple li p {
-    padding: 10 15px;
-}
+    
