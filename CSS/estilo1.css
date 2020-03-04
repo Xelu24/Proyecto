@@ -369,7 +369,7 @@ article {
     display: block;
     font-weight:bold;
 }
-#menu-desple *:active{
+#menu-desple *:hover{
     background-color:rgb(6, 21, 120);
     color: white;
     text-decoration: none;
@@ -381,7 +381,7 @@ article {
     position: absolute;
     min-width: 110px;
 }
-#menu-desple li:active > ul {
+#menu-desple li:hover > ul {
     display: block
 }
 #menu-desple > li {
