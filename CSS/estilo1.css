@@ -393,27 +393,3 @@ article {
 #menu-desple li p {
     padding: 10 15px;
 }
-
-
-/* --------------------------------Diseño-Web---------------------------------------- */
-html{font-family: Arial, Helvetica, sans-serif;}
-html,body{
-    margin: 0;
-}
-body {
-    background-color: #c9cffc;
-    color: #061579;
-}
-.encabezado{width: 100%;}
-.Titulo{display: flex;
-    position: relative;
-    top: 10%;
-    justify-content: center;
-}
-header{
-    text-align: center;
-    background:url(../Imagenes/mesh-1430107.png) no-repeat center fixed;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-}
