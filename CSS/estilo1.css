@@ -1,21 +1,12 @@
 html{font-family: Arial, Helvetica, sans-serif;}
 
-#Contenedor{
-    display: flex;
-    flex-direction:column;
-    width: 100%;
-    background-attachment: fixed;
-    height: 900px;
-    border: 0px;
-    margin: 0px;
-}
 .encabezado{width: 100%;}
 
 h1{color:rgb(6, 21, 120);}
 
-
 body{margin: 0px;
-background-color: rgb(201,207,252);}
+background-color: rgb(201,207,252);
+}
 
 .Titulo{display: flex;
     position: relative;
@@ -25,7 +16,7 @@ background-color: rgb(201,207,252);}
 
 header{
     text-align: center;
-    background:url(../Imagenes/people-2243021_960_720.jpg) no-repeat center fixed;
+    background:url(../Imagenes/mesh-1430107.png) no-repeat center fixed;
     background-size: cover;
     height: 100px;
     width: 100%;
@@ -64,6 +55,14 @@ p{
     color:white;
     display: block;
 }
+
+.menua{
+    display: flex;
+    position: relative;
+    top: 10%;
+    justify-content: center;}
+
+.menu a:hover{text-decoration:underline;}
 
 .menu li:hover{
     background-color:rgb(6, 21, 120);
@@ -113,3 +112,202 @@ input[type=submit]:hover{
     background-color: rgb(6, 21, 120);
     color: white;
 }
+
+#Contenedor{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    height: 900px;
+}
+.Articulos{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+
+.Izquierda{
+    display: none;
+    background-color :rgb(6, 21, 120);
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+i {color: white;
+padding: 25px;}
+main{
+    height: 100%;
+    background-color: rgb(201,207,252);
+    width: 50%;
+}
+
+.Derecha {
+    display: none;
+    height: 100%;
+    background-color:  rgb(6, 21, 120);
+    width: 25%;
+}
+a{color: white;}
+
+.Derecha li{list-style: none;padding: 10px;}
+
+article {
+    margin: 25px;
+    background-color: rgb(138, 152, 249);
+    margin: 2px;
+}
+
+.galeria {
+  display: flex;
+  float: left;
+  flex-direction: row;
+  width: 130px;
+  height: 110px;
+  border: 2px solid #777; 
+}
+
+.galeria:hover {
+  border: 2px solid rgb(6, 21, 120);
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+html{width: 1024px;}
+.menu{display: none;}
+#Contenedor{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    height: 1024px;
+}
+.Articulos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.Izquierda{
+    display: none;
+    background-color :rgb(6, 21, 120);
+    width: 10%;
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    background-color: rgb(201,207,252);
+    width: 90%;
+}
+
+.Derecha {
+    display: flex;
+    height: 1024px;
+    background-color:  rgb(6, 21, 120); 
+    width: 50%;
+    padding-right: 0px;
+}
+
+article {
+    margin: 25px;
+    width: 80%;
+    background-color: rgb(138, 152, 249);
+}
+
+}
+@media screen and (min-width:1024px) and (max-width:1440px){
+    #Contenedor{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    height: 900px;
+}
+.Articulos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.Izquierda{
+    display: flex;
+    background-color :rgb(6, 21, 120);
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    background-color: rgb(201,207,252);
+    width: 50%;
+}
+
+.Derecha {
+    display: flex;
+    height: 100%;
+    background-color:  rgb(6, 21, 120); 
+    width: 25%;
+}
+
+article {
+    margin: 25px;
+    background-color: rgb(138, 152, 249);}}
+
+@media screen and (min-width:320px) and (max-width:425px){
+    .menu{display: none;}
+    #Contenedor{
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+            width: 100%;
+            height: 425px;
+        }
+    .Articulos{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+        
+    .Izquierda{
+            display: none;
+            background-color :rgb(6, 21, 120);
+            width: 10%;
+            height: 100%;
+        }
+        
+    main{
+            height: 100%;
+            background-color: rgb(201,207,252);
+            width: 90%;
+        }
+        
+    .Derecha {
+            display: none;
+            height: 1024px;
+            background-color:  rgb(6, 21, 120); 
+            width: 50%;
+            padding-right: 0px;
+        }
+        
+    article {
+            margin: 25px;
+            width: 80%;
+            background-color: rgb(138, 152, 249);
+        }
+        
+        }
+    
