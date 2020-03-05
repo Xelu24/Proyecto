@@ -313,13 +313,13 @@ article {
 
 @media screen and (min-width:320px) and (max-width:425px){
     .menu{display: none;}
-    html{height: 600px;width: 425px;}
+    html{height: 1024px;width: 425px;}
     #Contenedor{
             display: flex;
             flex-direction: column;
             overflow: auto;
             width: 425px;
-            height: 600px;
+            height: 1024px;
         }
     main{
     height: 600px;
