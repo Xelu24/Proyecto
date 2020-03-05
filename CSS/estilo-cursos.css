@@ -1,34 +1,36 @@
 /* --------------------Activar cuando sea  PC---------------------*/
-/* @media screen and (min-width:1024) and (max-width:425px) */
-.menu{
-    display: flex;
-    background-color:rgb(138, 152, 249);
-    width: 100%;
-    height: 25px;
-    margin: 0px;
-    justify-content: center;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.menu li{
-    display: inline-block;
-   height:100%;
-   padding-left: 65px;
-   padding-right: 65px;
-   justify-content: center;
-}
-.menu a{
-    font-weight:bold;
-    text-decoration: none;
-    color:white;
-    display: block;
-}
-.menu a:hover{text-decoration:underline;}
-.menu li:hover{
-   background-color: rgb(6, 21, 120);
-}
-#nav-menu-movil{
-    display: none;
+@media screen and (min-width:1024) and (max-width:1440px){
+
+    .menu{
+        display: flex;
+        background-color:rgb(138, 152, 249);
+        width: 100%;
+        height: 25px;
+        margin: 0px;
+        justify-content: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .menu li{
+        display: inline-block;
+       height:100%;
+       padding-left: 65px;
+       padding-right: 65px;
+       justify-content: center;
+    }
+    .menu a{
+        font-weight:bold;
+        text-decoration: none;
+        color:white;
+        display: block;
+    }
+    .menu a:hover{text-decoration:underline;}
+    .menu li:hover{
+       background-color: rgb(6, 21, 120);
+    }
+    #nav-menu-movil{
+        display: none;
+    }
 }
 /* --------------------Activar cuando sea móvil---------------------*/
 @media screen and (min-width:320) and (max-width:425px){
