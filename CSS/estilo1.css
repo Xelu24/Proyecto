@@ -319,10 +319,10 @@ article {
             flex-direction: column;
             overflow: auto;
             width: 425px;
-            height: 425px;
+            height: 600px;
         }
     main{
-    height: 425px;
+    height: 600px;
     background-color: rgb(201,207,252);
     width: 425px;
         }
