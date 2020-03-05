@@ -32,41 +32,6 @@ p{
     text-align: center;
     color:rgb(6, 21, 120);}
 
-.menu{
-    display: flex;
-    background-color:rgb(138, 152, 249);
-    width: 100%;
-    height: 25px;
-    margin: 0px;
-    justify-content: center;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.menu li{
-    display: inline-block;
-   height:100%;
-   padding-left: 65px;
-   padding-right: 65px;
-   justify-content: center;
-}
-.menu a{
-    font-weight:bold;
-    text-decoration: none;
-    color:white;
-    display: block;
-}
-
-.menua{
-    display: flex;
-    position: relative;
-    top: 10%;
-    justify-content: center;}
-
-.menu a:hover{text-decoration:underline;}
-
-.menu li:hover{
-    background-color:rgb(6, 21, 120);
-}
 
 fieldset{margin-top: 30px;}
 
@@ -183,6 +148,51 @@ article {
 @media screen and (min-width:768px) and (max-width:1024px){
 html{width: 1024px;height: 1024px;}
 .menu{display: none;}
+#nav-menu-pc{
+    display: none;
+}
+#nav-menu-movil{
+    margin: auto;
+    width: 210px;
+    margin-right: 100%;
+    display: block;
+    align-items: left;
+}
+#nav-menu-movil ul,li{
+    list-style: none;
+}
+#menu-desple *{
+    background-color: rgb(138, 152, 249);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight:bold;
+}
+#menu-desple *:hover{
+    background-color:rgb(6, 21, 120);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+#menu-desple li ul{
+    display: none;
+    position: absolute;
+    min-width: 110px;
+}
+#menu-desple li:hover > ul {
+    display: block
+}
+#menu-desple > li {
+    float: left;
+}
+.menu ,ul {
+    padding-left: 15px;
+}
+#menu-desple li p {
+    padding: 10 15px;
+}
 main{
     height: 1024px;
     background-color: rgb(201,207,252);
@@ -232,6 +242,55 @@ article {
 
 }
 @media screen and (min-width:1024px) and (max-width:1440px){
+    #nav-menu-movil{
+        display: none;
+        margin: auto;
+        width: 210px;
+        margin-right: 100%;
+        display: block;
+        align-items: left;
+    }
+    #nav-menu-movil ul{
+        display: none;
+        list-style: none;
+    }
+    #menu-desple *{
+        display: none;
+        background-color: rgb(138, 152, 249);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-weight:bold;
+    }
+    #menu-desple *:hover{
+        display: none;
+        background-color:rgb(6, 21, 120);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+    #menu-desple li ul{
+        display: none;
+        position: absolute;
+        min-width: 110px;
+    }
+    #menu-desple li:hover > ul {
+        display: none;
+        display: block
+    }
+    #menu-desple > li {
+        display: none;
+        float: left;
+    }
+    .menu ,ul {
+        padding-left: 15px;
+    }
+    #menu-desple li p {
+        display: none;
+        padding: 10 15px;
+    }
     .menu{
     display: flex;
     background-color:rgb(138, 152, 249);
@@ -315,6 +374,48 @@ article {
 
 @media screen and (min-width:320px) and (max-width:425px){
     .menu{display: none;}
+    #nav-menu-movil{
+        margin: auto;
+        width: 210px;
+        margin-right: 100%;
+        display: block;
+        align-items: left;
+    }
+    #nav-menu-movil ul,li{
+        list-style: none;
+    }
+    #menu-desple *{
+        background-color: rgb(138, 152, 249);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-weight:bold;
+    }
+    #menu-desple *:hover{
+        background-color:rgb(6, 21, 120);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+    #menu-desple li ul{
+        display: none;
+        position: absolute;
+        min-width: 110px;
+    }
+    #menu-desple li:hover > ul {
+        display: block
+    }
+    #menu-desple > li {
+        float: left;
+    }
+    .menu ,ul {
+        padding-left: 15px;
+    }
+    #menu-desple li p {
+        padding: 10 15px;
+    }
     html{height: 1024px;width: 425px;}
     #Contenedor{
             display: flex;
@@ -368,178 +469,3 @@ article {
         }
         
         }
-        @media screen and (min-width:1441px) and (max-width:2560px){html{font-family: Arial, Helvetica, sans-serif;}
-
-        .encabezado{width: 100%;}
-        
-        h1{color:rgb(6, 21, 120);}
-        
-        body{margin: 0px;
-        background-color: rgb(201,207,252);
-        overflow: hidden;
-        }
-        
-        .Titulo{display: flex;
-            position: relative;
-            top: 10%;
-            justify-content: center;
-            }
-        html{width: 2560px;}
-        header{
-            text-align: center;
-            background:url(../Imagenes/mesh-1430107.png) no-repeat center fixed;
-            background-size: cover;
-            height: 100px;
-            width: 100%;
-        }
-        
-        #pini{
-            text-align: center;
-            padding-top: 20px;
-            color:rgb(6, 21, 120);
-            
-        }
-        p{
-            text-align: center;
-            color:rgb(6, 21, 120);}
-        
-        .menu{
-            display: flex;
-            background-color:rgb(138, 152, 249);
-            width: 100%;
-            height: 25px;
-            margin: 0px;
-            justify-content: center;
-            padding-right: 0px;
-            padding-left: 0px;
-        }
-        .menu li{
-            display: inline-block;
-           height:100%;
-           padding-left: 65px;
-           padding-right: 65px;
-           justify-content: center;
-        }
-        .menu a{
-            font-weight:bold;
-            text-decoration: none;
-            color:white;
-            display: block;
-        }
-        
-        .menua{
-            display: flex;
-            position: relative;
-            top: 10%;
-            justify-content: center;}
-        
-        .menu a:hover{text-decoration:underline;}
-        
-        .menu li:hover{
-            background-color:rgb(6, 21, 120);
-        }
-        
-        fieldset{margin-top: 30px;}
-        
-        input{
-            width: 95%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            }
-        
-        legend{
-            text-align: center;
-            font-weight:bold;
-            color:rgb(6, 21, 120);}
-        
-        textarea{
-            width: 95%;
-            padding: 12px 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;}
-        input[type=submit]
-        {
-            width: 200px;
-            padding: 10px 10px;
-            display: block;
-            margin: auto;
-            border: 1px;
-            border-radius: 4px;
-            color: rgb(6, 21, 120);
-            background-color: rgb(138, 152, 249);
-            box-shadow: 1px 1px 1px rgb(6, 21, 120);}
-            fieldset{
-            border:0px solid white
-            }
-        
-        input[type=submit]:hover{
-            cursor: pointer;
-            background-color: rgb(6, 21, 120);
-            color: white;
-        }
-        
-        #Contenedor{
-            display: flex;
-            flex-direction: column;
-            overflow: auto;
-            width: 2560px;
-            height: 900px;
-        }
-        .Articulos{
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            height: 100%;
-            align-items: center;
-        }
-        
-        .Izquierda{
-            display: flex;
-            background-color :rgb(6, 21, 120);
-            width: 25%;
-            height: 100%;
-        }
-        
-        i {color: white;
-        padding: 50px;}
-        main{
-            height: 100%;
-            background-color: rgb(201,207,252);
-            width: 50%;
-        }
-        
-        .Derecha {
-            display: flex;
-            height: 100%;
-            background-color:  rgb(6, 21, 120);
-            width: 25%;
-        }
-        a{color: white;}
-        
-        .Derecha li{list-style: none;padding: 10px;}
-        
-        article {
-            margin: 25px;
-            background-color: rgb(138, 152, 249);
-            height: 200px;
-            margin: 2px;
-        }
-        
-        .galeria {
-          display: flex;
-          float: left;
-          flex-direction: row;
-          width: 130px;
-          height: 110px;
-          border: 2px solid #777; 
-        }
-        
-        .galeria:hover {
-          border: 2px solid rgb(6, 21, 120);
-        }}
