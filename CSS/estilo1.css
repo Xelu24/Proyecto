@@ -327,6 +327,8 @@ article {
     width: 90%;
         }
     .Articulos{
+            padding-right: 0px;
+            padding-left: 20px;
             display: flex;
             flex-direction: row;
             width: 100%;
