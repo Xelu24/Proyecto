@@ -109,7 +109,20 @@
     #colum-izq article div ul li a{
         background-color: black;
         font-size: 18px;
-        color: white;   
+        color: white; 
+          
+    }
+    #colum-izq article div ul,li{
+        list-style: none;
+    }
+    #article-izq-colum a {
+        color: #c9cffc;
+    }
+    #article-izq-colum li {
+        margin-bottom: 60px;
+    }
+    #article-izq-colum ul {
+        margin-right: 35px;
     }
 }
 /* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
