@@ -44,7 +44,7 @@
     .columnas{
         width: 12%;
     }
-    .ctn-pagina{
+    .ctn-cuerpo-pagina{
         display: flex;
         flex-direction: row;   
     }
@@ -161,7 +161,7 @@
     .columnas{
         width: 12%;
     }
-    .ctn-pagina{
+    .ctn-cuerpo-pagina{
         display: flex;
         flex-direction: row;   
     }
