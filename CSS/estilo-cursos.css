@@ -53,8 +53,9 @@
         flex-direction: column;
     }
     .columnas table{
-        margin-top: 10%;
-        margin-left: 15%;
+        margin: 0;
+        /* margin-top: 10%;
+        margin-left: 15%; */
         /* margin-right: 5%; */
     }
     /* ESTILO WEB */
@@ -131,9 +132,11 @@
     .menu li{
         display: inline-block;
        height:100%;
-       padding-left: 65px;
-       padding-right: 65px;
+       padding-left: 25px;
+       padding-right: 25px;
        justify-content: center;
+       padding: 5px;
+       margin-left: 10px;
     }
     .menu a{
         font-weight:bold;
@@ -156,10 +159,10 @@
     }
     /* LAYOUT */
     .colum1 {
-        width: 88%;
+        width: 80%;
     }
     .columnas{
-        width: 12%;
+        width: 20%;
     }
     .ctn-cuerpo-pagina{
         display: flex;
@@ -170,8 +173,9 @@
         flex-direction: column;
     }
     .columnas table{
-        margin-top: 10%;
-        margin-left: 15%;
+        margin: 0px;
+        /* margin-top: 10%;
+        margin-left: 15%; */
         /* margin-right: 5%; */
     }
     /* ESTILO WEB */
@@ -241,6 +245,7 @@
         /* margin-right: 100%; */
         display: block;
         align-items: left;
+        margin-bottom: 35%;
     }
     #nav-menu-movil ul,li{
         list-style: none;
