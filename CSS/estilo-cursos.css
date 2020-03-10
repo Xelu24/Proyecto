@@ -32,105 +32,19 @@
         display: none;
     }
     /* Estilo contacto */
-    .columnas{
-        background-color: #061579;
-        color: #c9cffc;
-        text-align: center;
-    }
+    
     /* LAYOUT */
-    .colum1 {
-        width: 76%;
-    }
-    .columnas{
-        width: 12%;
-    }
-    .ctn-cuerpo-pagina{
-        display: flex;
-        flex-direction: row;   
-    }
-    .columnas{
+    .colum-unica {
         display: flex;
         flex-direction: column;
-    }
-    .columnas table{
-        margin: 0;
-        /* margin-top: 10%;
-        margin-left: 15%; */
-        /* margin-right: 5%; */
+        width: 100%;
     }
     /* ESTILO WEB */
-    .ctn-texto p{
-        margin: 15px;
-    }
-    input[type=submit]{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #061579;
-        width: 20%;
-        margin: 0%;
-        /* margin-right:50%; */
-        text-align: center;
-        padding: 10px;
-        color: white;
-    }
-    input[type=submit]:hover{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #0615DD;
-        padding: 10px;
-        color: white;
-        cursor: pointer;
-        box-shadow: 5px 10px 5px 0px black;
-    }
-    input[type=reset]{
-        border-radius: 25px;
-        font-size: 18px;
-        margin: 0%;
-        margin-left: 58%;
-        background-color: #061579;
-        width: 20%;
-        /* margin-right:50%; */
-        text-align: center;
-        padding: 10px;
-        color: white;
-    }
-    input[type=reset]:hover{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #0615DD;
-        padding: 10px;
-        color: white;
-        cursor: pointer;
-        box-shadow: 5px 10px 5px 0px black;
-    }
     footer{
         display: none;
     }
-    #colum-izq article div ul li a{
-        background-color: black;
-        font-size: 18px;
-        color: white; 
-          
-    }
-    #colum-izq article div ul,li{
-        list-style: none;
-    }
-    #article-izq-colum a {
-        color: #c9cffc;
-    }
-    #article-izq-colum li {
-        margin-bottom: 60px;
-    }
-    #article-izq-colum ul {
-        margin-right: 35px;
-    }
 }
 /* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
-/* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
-/* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
-/* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
-
-/*                                   DISEÑO EN PRUEBAS-------------> */
 @media screen and (min-width:426px) and (max-width:1023px){
     /* MENU */
     .menu{
@@ -166,81 +80,16 @@
         display: none;
     }
     /* Estilo contacto */
-    .columnas{
-        background-color: #061579;
-        color: #c9cffc;
-        text-align: center;
-    }
     /* LAYOUT */
-    .colum1 {
-        width: 80%;
-    }
-    .columnas{
-        width: 20%;
+    .colum-unica{
+        width: 100%;
     }
     .ctn-cuerpo-pagina{
         display: flex;
-        flex-direction: row;   
-    }
-    .columnas{
-        display: flex;
-        flex-direction: column;
-    }
-    .columnas table{
-        margin: 0px;
-        /* margin-top: 10%;
-        margin-left: 15%; */
-        /* margin-right: 5%; */
+        flex-direction: column;   
     }
     /* ESTILO WEB */
-    .ctn-texto p{
-        margin: 15px;
-    }
-    input[type=submit]{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #061579;
-        width: 20%;
-        /* margin-right: 25%; */
-        /* margin-right:50%; */
-        text-align: center;
-        padding: 10px;
-        color: white;
-    }
-    input[type=submit]:hover{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #0615DD;
-        padding: 10px;
-        color: white;
-        cursor: pointer;
-        box-shadow: 5px 10px 5px 0px black;
-    }
-    input[type=reset]{
-        border-radius: 25px;
-        font-size: 18px;
-        margin: 0%;
-        margin-left: 50%;
-        background-color: #061579;
-        width: 20%;
-        /* margin-right:50%; */
-        text-align: center;
-        padding: 10px;
-        color: white;
-    }
-    input[type=reset]:hover{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #0615DD;
-        padding: 10px;
-        color: white;
-        cursor: pointer;
-        box-shadow: 5px 10px 5px 0px black;
-    }
     footer{
-        display: none;
-    }
-    #colum-izq{
         display: none;
     }
 }
@@ -297,62 +146,19 @@
     #menu-desple li p {
         padding: 10 15px;
     }
-    input[type=submit]{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #061579;
-        width: 20%;
-        
-        margin-right:50%;
-        text-align: center;
-        padding: 10px;
-        color: white;
-    }
-    input[type=submit]:hover{
-        border-radius: 25px;
-        font-size: 14px;
-        background-color: #0615DD;
-        padding: 10px;
-        color: white;
-        cursor: pointer;
-        box-shadow: 5px 10px 5px 0px black;
-    }
-    input[type=reset]{
-        border-radius: 25px;
-        font-size: 18px;
-        
-        background-color: #061579;
-        width: 20%;
-        
-        text-align: center;
-        padding: 10px;
-        color: white;
-    }
-    input[type=reset]:hover{
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #0615DD;
-        padding: 10px;
-        color: white;
-        cursor: pointer;
-        box-shadow: 5px 10px 5px 0px black;
-    }
-    .columnas{
-        display: none;
-    }
+    
     footer div{
     display: flex;
 	flex-wrap: wrap;
     justify-content: center;
     background-color: #8a98f9;
-    
-}
-footer div *{
-    margin-right: 10px;
-    font-weight: bold;
-}
-footer h2{
-    text-align: center;
+    }
+    footer div *{
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    footer h2{
+        text-align: center;
     }
 }
 /* --------------------------------Diseño-Web---------------------------------------- */
@@ -377,59 +183,3 @@ header{
     height: 100px;
     width: 100%;
 }
-/* ESTILO WEB */
-    .ctn-texto p{
-        margin: 15px;
-    }
-    .ctn-texto p::first-letter{
-        font-size: 2.5em;
-    }
-    .elc-textos:hover{
-        background-color: black;
-        font-size: 18px;
-        color: white;
-    }
-    .tit-colum1{
-        border: 1px solid #061579;
-        width: 100%;
-        text-align: center;
-    }
-    /* FORMULARIO */
-    .formulario {
-        background-color: #f2f6f7;
-        margin-left: 35%;
-        margin-top: 10%;
-    }
-    input, textarea, select{
-        background-color: #e5eced;
-        width: 95%;
-        margin: 10px;
-        padding: 1%;
-        color: rgb(75, 73, 73);
-    
-    }
-    legend::first-letter{
-        background-color: #061579;
-        color: white;
-        font-size: 22px;
-        padding: 8px;
-        padding-left: 20px ;
-        border-radius: 0% 75% 75% 0%;
-        margin-right: 4px;
-    }
-    input [type=text]{
-        width: 95%;
-    }
-    option:hover{
-        background-color: #2a89fb;
-    }
-    optgroup:hover{
-        background-color: #1354a3;
-    }
-    select:focus{
-        background-color: #ccd4d8;
-    }
-    .ctn-texto p::first-letter{
-        font-size: 2.5em;
-    }
-    
