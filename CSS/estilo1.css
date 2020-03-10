@@ -8,6 +8,19 @@ html{font-family: Arial, Helvetica, sans-serif;}
     text-align: center;
 
 }
+#dia{color: rgb(6, 21, 120);}
+
+#Excursión{color: rgb(6, 21, 120);}
+
+#Visita{color: rgb(6, 21, 120);}
+
+#Diamujer{color: rgb(6, 21, 120);}
+
+#Taller{color: rgb(6, 21, 120);}
+
+#Torneo{color: rgb(6, 21, 120);}
+
+
 .centrado{
     color: red;
     position: absolute;
@@ -31,7 +44,7 @@ html{font-family: Arial, Helvetica, sans-serif;}
   }
 .encabezado{width: 100%;}
 
-h1{color:rgb(6, 21, 120);}
+.h1titulo{color:rgb(6, 21, 120);}
 
 body{margin: 0px;
 background-color: rgb(201,207,252);
@@ -62,7 +75,7 @@ header{
     color:rgb(6, 21, 120);}
 
 
-fieldset{margin-top: 30px;}
+.contacto{margin-top: 30px;}
 
 input{
     width: 90%;
@@ -97,9 +110,9 @@ input[type=submit]
     color: rgb(6, 21, 120);
     background-color: rgb(138, 152, 249);
     box-shadow: 1px 1px 1px rgb(6, 21, 120);}
-    fieldset{
-    border:0px solid white
-    }
+.contacto{
+border:0px solid white
+}
 
 input[type=submit]:hover{
     cursor: pointer;
@@ -153,7 +166,7 @@ article {
   border: 2px solid rgb(6, 21, 120);
 }
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:426px) and (max-width:1024px){
 html{width: 1024px;height: 1024px;}
 .menu{display: none;}
 #pini{
@@ -269,6 +282,7 @@ article {
 }
 @media screen and (min-width:1024px) and (max-width:1440px){
     .imageninicio{width: 1440px;height: 100%;}
+    .forma{height: 1024px;width: 100%;}
     #nav-menu-movil{
         display: none;
         margin: auto;
@@ -343,7 +357,6 @@ article {
 }
 
 .menua{
-    display: flex;
     position: relative;
     top: 10%;
     justify-content: center;}
