@@ -37,11 +37,22 @@ html{font-family: Arial, Helvetica, sans-serif;}
     background-color: #1883ba;
     border-radius: 6px;
     border: 2px solid #0016b0;
-  }
+    
+}
+
   .botoninicio:hover{
     color: #1883ba;
     background-color: #ffffff;
+    animation-name: girar;
+  animation-duration: 2s;
   }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }}
 .encabezado{width: 100%;}
 
 .h1titulo{color:rgb(6, 21, 120);}
@@ -167,7 +178,8 @@ article {
 }
 
 @media screen and (min-width:426px) and (max-width:1024px){
-.htmlprincipal{width: 1024px;height: 1024px;}
+.htmlprincipal{width: 1024px;height: 1600px;}
+.cont{width: 100%;height: 100%;}
 .menu{display: none;}
 #pini{
     width: 90%;
@@ -184,7 +196,7 @@ article {
     text-align: center;
 
 }
-.imageninicio{width: 1024px;height: 1024px;}
+.imageninicio{width: 1024px;height: 1600px;}
 .pin2{
     width: 90%;
     text-align: center;
@@ -232,8 +244,8 @@ article {
 #menu-desple li p {
     padding: 10 15px;
 }
-main{
-    height: 1024px;
+.principal{
+    height: 1600px;
     background-color: rgb(201,207,252);
     width: 1024px;
 }
@@ -242,13 +254,13 @@ main{
     flex-direction: column;
     overflow: auto;
     width: 1024px;
-    height: 1230px;
+    height: 1850px;
 }
 .Articulos{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
+    height: 1600px;
     margin: auto;
 }
 
@@ -256,7 +268,7 @@ main{
     display: none;
     background-color :rgb(6, 21, 120);
     width: 10%;
-    height: 100%;
+    height: 1600px;
 }
 
 main{
@@ -267,7 +279,7 @@ main{
 
 .Derecha {
     display: flex;
-    height: 1024px;
+    height: 1600px;
     background-color:  rgb(6, 21, 120); 
     width: 50%;
     padding-right: 0px;
@@ -282,6 +294,7 @@ article {
 }
 @media screen and (min-width:1024px) and (max-width:1440px){
     .imageninicio{width: 1440px;height: 100%;}
+    .cont{width: 1440px;height: 100%;}
     .forma{height: 1024px;width: 100%;}
     #nav-menu-movil{
         display: none;
