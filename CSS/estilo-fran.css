@@ -113,7 +113,7 @@
     #article-izq-colum ul {
         margin-right: 55px;
     }
-    .beca1 iframe{
+    .iframes-cursos{
         margin-left: 25%;
     }
 }
@@ -225,14 +225,18 @@
         cursor: pointer;
         box-shadow: 5px 10px 5px 0px black;
     }
-    .beca1 iframe{
-        width: 280px;
-        height: 200px;
+    .iframes-cursos{
+        margin-left: 10%;
+        width: 350px;
+        height: 400px;
     }
     .td-pag-footer{
         display: none;
     }
     #colum-izq{
+        display: none;
+    }
+    #colum-der{
         display: none;
     }
 }
@@ -338,10 +342,14 @@
     justify-content: center;
     background-color: #8a98f9;
     }
-    .beca1 iframe{
+    .iframes-cursos{
         width: 200px;
         height: 150px;
-        margin-left: 25%;
+        margin-left: 15%;
+    }
+    #if-td-fp{
+        width: 280px;
+        height: 600px;
     }
     .td-pag-footer div *{
     margin-right: 10px;
@@ -439,15 +447,18 @@ select:focus{
 }
 .ctn-fct a:hover{
     background-color: #06157981;
-    font-size: 24px;
+    font-size: 18px;
+    color: red;
 }
 .ctn-matricula a:hover{
     background-color: #06157981;
-    font-size: 24px;
+    font-size: 18px;
+    color: red;
 }
 .ctn-ayudas a:hover{
     background-color: #06157981;
-    font-size: 24px;
+    font-size: 18px;
+    color: red;
 }
 .ctn-fct a{
     color: #415afc;
@@ -484,3 +495,41 @@ header{
     width: 100%;
     text-align: center;
 }
+.tbl-cursos tr td{
+    border: 4px solid #061579;
+    /* color: white; */
+    background-image: url(../Imagenes/tabla-fondo.jpg);
+    width: 50%;
+    padding: 10px;
+}
+.tbl-cursos #th-arriba{
+    color: white;
+    background-color: #061579;
+    font-size: 26px;  
+}
+.tbl-cursos th{
+    background-color: white;
+    color: #061579;
+    border: 4px solid #061579;
+}
+#ctn-cursos h1,h2{
+    text-align: center;
+    width: 100%;
+}
+#ctn-cursos h1{
+    border: 1px solid #061579;
+}
+.ctn-textos-cursos p{
+    /* background-color: red; */
+    border: 2px solid #061579;
+    padding: 10px;
+}
+.ctn-textos-cursos a{
+    color: #061579;
+}
+.ctn-textos-cursos a:hover{
+    font-size: 18px;
+    color: red;
+}
+
+
