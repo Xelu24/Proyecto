@@ -14,8 +14,8 @@
     .menu li{
         display: inline-block;
        height:100%;
-       padding-left: 65px;
-       padding-right: 65px;
+       padding-left: 25px;
+       padding-right: 25px;
        justify-content: center;
     }
     .menu a{
@@ -100,7 +100,7 @@
         cursor: pointer;
         box-shadow: 5px 10px 5px 0px black;
     }
-    footer{
+    .td-pag-footer{
         display: none;
     }
     #colum-izq article div ul,li{
@@ -108,17 +108,17 @@
     }
     #article-izq-colum li {
         margin-bottom: 60px;
+        margin-left: -25px;
     }
     #article-izq-colum ul {
-        margin-right: 35px;
+        margin-right: 55px;
+    }
+    .beca1 iframe{
+        margin-left: 25%;
     }
 }
 /* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
-/* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
-/* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
-/* -------------------------------------------DISEÑO TABLET---------------------------------------------------- */
 
-/*                                   DISEÑO EN PRUEBAS-------------> */
 @media screen and (min-width:426px) and (max-width:1023px){
     /* MENU */
     .menu{
@@ -138,7 +138,7 @@
        padding-left: 25px;
        padding-right: 25px;
        margin-left: 10px;
-       margin-top: 25px;
+       margin-top: 10px;
     }
     .menu a{
         font-weight:bold;
@@ -225,13 +225,18 @@
         cursor: pointer;
         box-shadow: 5px 10px 5px 0px black;
     }
-    footer{
+    .beca1 iframe{
+        width: 280px;
+        height: 200px;
+    }
+    .td-pag-footer{
         display: none;
     }
     #colum-izq{
         display: none;
     }
 }
+
 /* DISEÑO EN PRUEBAS------------------------------------------------------------- */
 
 
@@ -257,7 +262,7 @@
         background-color: rgb(138, 152, 249);
         color: white;
         text-decoration: none;
-        padding: 10px 15px;
+        padding: 4px 10px;
         display: block;
         font-weight:bold;
     }
@@ -265,7 +270,6 @@
         background-color:rgb(6, 21, 120);
         color: white;
         text-decoration: none;
-        padding: 10px 15px;
         display: block;
     }
     #menu-desple li ul{
@@ -328,22 +332,26 @@
     .columnas{
         display: none;
     }
-    footer div{
+    .td-pag-footer div{
     display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #8a98f9;
-    
-}
-footer div *{
+    }
+    .beca1 iframe{
+        width: 200px;
+        height: 150px;
+        margin-left: 25%;
+    }
+    .td-pag-footer div *{
     margin-right: 10px;
     font-weight: bold;
-}
-footer h2{
+    }
+    .td-pag-footer h2{
     text-align: center;
     }
-}
 /* --------------------------------Diseño-Web---------------------------------------- */
+}
 html{font-family: Arial, Helvetica, sans-serif;}
 html,body{
     margin: 0;
@@ -366,58 +374,113 @@ header{
     width: 100%;
 }
 /* ESTILO WEB */
-    .ctn-texto p{
-        margin: 15px;
-    }
-    .ctn-texto p::first-letter{
-        font-size: 2.5em;
-    }
-    .elc-textos:hover{
-        background-color: black;
-        font-size: 18px;
-        color: white;
-    }
-    .tit-colum1{
-        border: 1px solid #061579;
-        width: 100%;
-        text-align: center;
-    }
-    /* FORMULARIO */
-    .formulario {
-        background-color: #f2f6f7;
-        margin-left: 35%;
-        margin-top: 10%;
-    }
-    input, textarea, select{
-        background-color: #e5eced;
-        width: 95%;
-        margin: 10px;
-        padding: 1%;
-        color: rgb(75, 73, 73);
-    
-    }
-    legend::first-letter{
-        background-color: #061579;
-        color: white;
-        font-size: 22px;
-        padding: 8px;
-        padding-left: 20px ;
-        border-radius: 0% 75% 75% 0%;
-        margin-right: 4px;
-    }
-    input [type=text]{
-        width: 95%;
-    }
-    option:hover{
-        background-color: #2a89fb;
-    }
-    optgroup:hover{
-        background-color: #1354a3;
-    }
-    select:focus{
-        background-color: #ccd4d8;
-    }
-    .ctn-texto p::first-letter{
-        font-size: 2.5em;
-    }
-    
+.ctn-texto p{
+    margin: 15px;
+}
+.ctn-texto p::first-letter{
+    font-size: 2.5em;
+}
+.elc-textos:hover{
+    background-color: black;
+    font-size: 18px;
+    color: white;
+}
+.tit-colum1{
+    border: 1px solid #061579;
+    width: 100%;
+    text-align: center;
+}
+/* FORMULARIO */
+.formulario {
+    background-color: #f2f6f7;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+input, textarea, select{
+    background-color: #e5eced;
+    width: 95%;
+    margin: 10px;
+    padding: 1%;
+    color: rgb(75, 73, 73);
+
+}
+legend::first-letter{
+    background-color: #061579;
+    color: white;
+    font-size: 22px;
+    padding: 8px;
+    padding-left: 20px ;
+    border-radius: 0% 75% 75% 0%;
+    margin-right: 4px;
+}
+input [type=text]{
+    width: 95%;
+}
+option:hover{
+    background-color: #2a89fb;
+}
+optgroup:hover{
+    background-color: #1354a3;
+}
+select:focus{
+    background-color: #ccd4d8;
+}
+.ctn-texto p::first-letter{
+    font-size: 2.5em;
+}
+.ctn-fct ul{
+    list-style: none;
+}
+.ctn-matricula ul{
+    list-style: none;
+}
+.ctn-ayudas ul{
+    list-style: none;
+}
+.ctn-fct a:hover{
+    background-color: #06157981;
+    font-size: 24px;
+}
+.ctn-matricula a:hover{
+    background-color: #06157981;
+    font-size: 24px;
+}
+.ctn-ayudas a:hover{
+    background-color: #06157981;
+    font-size: 24px;
+}
+.ctn-fct a{
+    color: #415afc;
+}
+.ctn-matricula a{
+    color: #415afc;
+}
+.ctn-ayudas a{
+    color: #415afc;
+}
+html{font-family: Arial, Helvetica, sans-serif;}
+html,body{
+    margin: 0;
+}
+body {
+    background-color: #c9cffc;
+    color: #061579;
+}
+.encabezado{width: 100%;}
+.Titulo{display: flex;
+    position: relative;
+    top: 10%;
+    justify-content: center;
+}
+header{
+    text-align: center;
+    background:url(../Imagenes/mesh-1430107.png) no-repeat center fixed;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+.h2-secre{
+    border: 1px solid #061579;
+    width: 100%;
+    text-align: center;
+}
