@@ -167,7 +167,7 @@ article {
 }
 
 @media screen and (min-width:426px) and (max-width:1024px){
-html{width: 1024px;height: 1024px;}
+.htmlprincipal{width: 1024px;height: 1024px;}
 .menu{display: none;}
 #pini{
     width: 90%;
@@ -470,7 +470,7 @@ article {
     #menu-desple li p {
         padding: 10 15px;
     }
-    html{height: 1024px;width: 425px;}
+    .htmlprincipal{height: 1024px;width: 425px;}
     #Contenedor{
             display: flex;
             flex-direction: column;
