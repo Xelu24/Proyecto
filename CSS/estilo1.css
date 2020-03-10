@@ -1,8 +1,50 @@
 html{font-family: Arial, Helvetica, sans-serif;}
 
+.cont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+#dia{color: rgb(6, 21, 120);}
+
+#Excursión{color: rgb(6, 21, 120);}
+
+#Visita{color: rgb(6, 21, 120);}
+
+#Diamujer{color: rgb(6, 21, 120);}
+
+#Taller{color: rgb(6, 21, 120);}
+
+#Torneo{color: rgb(6, 21, 120);}
+
+
+.centrado{
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.botoninicio{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .botoninicio:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
 .encabezado{width: 100%;}
 
-h1{color:rgb(6, 21, 120);}
+.h1titulo{color:rgb(6, 21, 120);}
 
 body{margin: 0px;
 background-color: rgb(201,207,252);
@@ -28,50 +70,15 @@ header{
     color:rgb(6, 21, 120);
     
 }
-p{
+.pin2{
     text-align: center;
     color:rgb(6, 21, 120);}
 
-.menu{
-    display: flex;
-    background-color:rgb(138, 152, 249);
-    width: 100%;
-    height: 25px;
-    margin: 0px;
-    justify-content: center;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.menu li{
-    display: inline-block;
-   height:100%;
-   padding-left: 65px;
-   padding-right: 65px;
-   justify-content: center;
-}
-.menu a{
-    font-weight:bold;
-    text-decoration: none;
-    color:white;
-    display: block;
-}
 
-.menua{
-    display: flex;
-    position: relative;
-    top: 10%;
-    justify-content: center;}
-
-.menu a:hover{text-decoration:underline;}
-
-.menu li:hover{
-    background-color:rgb(6, 21, 120);
-}
-
-fieldset{margin-top: 30px;}
+.contacto{margin-top: 30px;}
 
 input{
-    width: 95%;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -85,7 +92,7 @@ legend{
     color:rgb(6, 21, 120);}
 
 textarea{
-    width: 95%;
+    width: 90%;
     padding: 12px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -103,29 +110,14 @@ input[type=submit]
     color: rgb(6, 21, 120);
     background-color: rgb(138, 152, 249);
     box-shadow: 1px 1px 1px rgb(6, 21, 120);}
-    fieldset{
-    border:0px solid white
-    }
+.contacto{
+border:0px solid white
+}
 
 input[type=submit]:hover{
     cursor: pointer;
     background-color: rgb(6, 21, 120);
     color: white;
-}
-
-#Contenedor{
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-    width: 100%;
-    height: 900px;
-}
-.Articulos{
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 100%;
-    align-items: center;
 }
 
 .Izquierda{
@@ -174,15 +166,72 @@ article {
   border: 2px solid rgb(6, 21, 120);
 }
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media screen and (min-width:768px) and (max-width:1024px){
-html{width: 1024px;height: 1024px;}
+@media screen and (min-width:426px) and (max-width:1024px){
+.htmlprincipal{width: 1024px;height: 1024px;}
 .menu{display: none;}
+#pini{
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+    color:rgb(6, 21, 120);
+    
+}
+.cont{
+    width: 1024px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.imageninicio{width: 1024px;height: 1024px;}
+.pin2{
+    width: 90%;
+    text-align: center;
+    color:rgb(6, 21, 120);}
+
+#nav-menu-movil{
+    margin: auto;
+    width: 210px;
+    margin-right: 100%;
+    display: block;
+    align-items: left;
+}
+#nav-menu-movil ul,li{
+    list-style: none;
+}
+#menu-desple *{
+    background-color: rgb(138, 152, 249);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight:bold;
+}
+#menu-desple *:hover{
+    background-color:rgb(6, 21, 120);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+#menu-desple li ul{
+    display: none;
+    position: absolute;
+    min-width: 110px;
+}
+#menu-desple li:hover > ul {
+    display: block
+}
+#menu-desple > li {
+    float: left;
+}
+.menu ,ul {
+    padding-left: 15px;
+}
+#menu-desple li p {
+    padding: 10 15px;
+}
 main{
     height: 1024px;
     background-color: rgb(201,207,252);
@@ -193,7 +242,7 @@ main{
     flex-direction: column;
     overflow: auto;
     width: 1024px;
-    height: 1125px;
+    height: 1230px;
 }
 .Articulos{
     display: flex;
@@ -232,6 +281,57 @@ article {
 
 }
 @media screen and (min-width:1024px) and (max-width:1440px){
+    .imageninicio{width: 1440px;height: 100%;}
+    .forma{height: 1024px;width: 100%;}
+    #nav-menu-movil{
+        display: none;
+        margin: auto;
+        width: 210px;
+        margin-right: 100%;
+        display: block;
+        align-items: left;
+    }
+    #nav-menu-movil ul{
+        display: none;
+        list-style: none;
+    }
+    #menu-desple *{
+        display: none;
+        background-color: rgb(138, 152, 249);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-weight:bold;
+    }
+    #menu-desple *:hover{
+        display: none;
+        background-color:rgb(6, 21, 120);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+    #menu-desple li ul{
+        display: none;
+        position: absolute;
+        min-width: 110px;
+    }
+    #menu-desple li:hover > ul {
+        display: none;
+        display: block
+    }
+    #menu-desple > li {
+        display: none;
+        float: left;
+    }
+    .menu ,ul {
+        padding-left: 15px;
+    }
+    #menu-desple li p {
+        display: none;
+        padding: 10 15px;
+    }
     .menu{
     display: flex;
     background-color:rgb(138, 152, 249);
@@ -257,7 +357,6 @@ article {
 }
 
 .menua{
-    display: flex;
     position: relative;
     top: 10%;
     justify-content: center;}
@@ -278,7 +377,7 @@ main{
     flex-direction: column;
     overflow: auto;
     width: 100%;
-    height: 1050px;
+    height: 1200px;
 }
 .Articulos{
     display: flex;
@@ -286,6 +385,7 @@ main{
     width: 100%;
     height: 100%;
 }
+
 
 .Izquierda{
     display: flex;
@@ -295,11 +395,6 @@ main{
     height: 100%;
 }
 
-main{
-    height: 100%;
-    background-color: rgb(201,207,252);
-    width: 50%;
-}
 
 .Derecha {
     display: flex;
@@ -311,11 +406,71 @@ main{
 article {
     margin: 25px;
     background-color: rgb(138, 152, 249);
-    margin-left: 45px;}}
+    margin-left: 45px;}
+.extraescolar{
+    margin: 25px;
+    background-color: rgb(138, 152, 249);
+    margin-left: 45px;
+    height:165px}}
 
 @media screen and (min-width:320px) and (max-width:425px){
+    .imageninicio{width: 425px;height: 1024px;padding-left: 0%;}
+    #pini{
+    width: 85%;
+    text-align: center;
+    padding-top: 20px;
+    color:rgb(6, 21, 120);
+    
+    }
+    .pin2{
+    width: 85%;
+    text-align: center;
+    color:rgb(6, 21, 120);}
+
     .menu{display: none;}
-    html{height: 1024px;width: 425px;}
+    #nav-menu-movil{
+        margin: auto;
+        width: 210px;
+        margin-right: 100%;
+        display: block;
+        align-items: left;
+    }
+    #nav-menu-movil ul,li{
+        list-style: none;
+    }
+    #menu-desple *{
+        background-color: rgb(138, 152, 249);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-weight:bold;
+    }
+    #menu-desple *:hover{
+        background-color:rgb(6, 21, 120);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+    #menu-desple li ul{
+        display: none;
+        position: absolute;
+        min-width: 110px;
+    }
+    #menu-desple li:hover > ul {
+        display: block
+    }
+    #menu-desple > li {
+        float: left;
+    }
+    .menu ,ul {
+        padding-left: 15px;
+    }
+    #menu-desple li p {
+        padding: 10 15px;
+    }
+    .htmlprincipal{height: 1024px;width: 425px;}
     #Contenedor{
             display: flex;
             flex-direction: column;
@@ -368,178 +523,3 @@ article {
         }
         
         }
-        @media screen and (min-width:1441px) and (max-width:2560px){html{font-family: Arial, Helvetica, sans-serif;}
-
-        .encabezado{width: 100%;}
-        
-        h1{color:rgb(6, 21, 120);}
-        
-        body{margin: 0px;
-        background-color: rgb(201,207,252);
-        overflow: hidden;
-        }
-        
-        .Titulo{display: flex;
-            position: relative;
-            top: 10%;
-            justify-content: center;
-            }
-        html{width: 2560px;}
-        header{
-            text-align: center;
-            background:url(../Imagenes/mesh-1430107.png) no-repeat center fixed;
-            background-size: cover;
-            height: 100px;
-            width: 100%;
-        }
-        
-        #pini{
-            text-align: center;
-            padding-top: 20px;
-            color:rgb(6, 21, 120);
-            
-        }
-        p{
-            text-align: center;
-            color:rgb(6, 21, 120);}
-        
-        .menu{
-            display: flex;
-            background-color:rgb(138, 152, 249);
-            width: 100%;
-            height: 25px;
-            margin: 0px;
-            justify-content: center;
-            padding-right: 0px;
-            padding-left: 0px;
-        }
-        .menu li{
-            display: inline-block;
-           height:100%;
-           padding-left: 65px;
-           padding-right: 65px;
-           justify-content: center;
-        }
-        .menu a{
-            font-weight:bold;
-            text-decoration: none;
-            color:white;
-            display: block;
-        }
-        
-        .menua{
-            display: flex;
-            position: relative;
-            top: 10%;
-            justify-content: center;}
-        
-        .menu a:hover{text-decoration:underline;}
-        
-        .menu li:hover{
-            background-color:rgb(6, 21, 120);
-        }
-        
-        fieldset{margin-top: 30px;}
-        
-        input{
-            width: 95%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            }
-        
-        legend{
-            text-align: center;
-            font-weight:bold;
-            color:rgb(6, 21, 120);}
-        
-        textarea{
-            width: 95%;
-            padding: 12px 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;}
-        input[type=submit]
-        {
-            width: 200px;
-            padding: 10px 10px;
-            display: block;
-            margin: auto;
-            border: 1px;
-            border-radius: 4px;
-            color: rgb(6, 21, 120);
-            background-color: rgb(138, 152, 249);
-            box-shadow: 1px 1px 1px rgb(6, 21, 120);}
-            fieldset{
-            border:0px solid white
-            }
-        
-        input[type=submit]:hover{
-            cursor: pointer;
-            background-color: rgb(6, 21, 120);
-            color: white;
-        }
-        
-        #Contenedor{
-            display: flex;
-            flex-direction: column;
-            overflow: auto;
-            width: 2560px;
-            height: 900px;
-        }
-        .Articulos{
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            height: 100%;
-            align-items: center;
-        }
-        
-        .Izquierda{
-            display: flex;
-            background-color :rgb(6, 21, 120);
-            width: 25%;
-            height: 100%;
-        }
-        
-        i {color: white;
-        padding: 50px;}
-        main{
-            height: 100%;
-            background-color: rgb(201,207,252);
-            width: 50%;
-        }
-        
-        .Derecha {
-            display: flex;
-            height: 100%;
-            background-color:  rgb(6, 21, 120);
-            width: 25%;
-        }
-        a{color: white;}
-        
-        .Derecha li{list-style: none;padding: 10px;}
-        
-        article {
-            margin: 25px;
-            background-color: rgb(138, 152, 249);
-            height: 200px;
-            margin: 2px;
-        }
-        
-        .galeria {
-          display: flex;
-          float: left;
-          flex-direction: row;
-          width: 130px;
-          height: 110px;
-          border: 2px solid #777; 
-        }
-        
-        .galeria:hover {
-          border: 2px solid rgb(6, 21, 120);
-        }}
