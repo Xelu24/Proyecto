@@ -88,7 +88,7 @@ header{
 
 .contacto{margin-top: 30px;}
 
-input{
+.input1{
     width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -97,12 +97,12 @@ input{
     border-radius: 4px;
     }
 
-legend{
+.leyenda{
     text-align: center;
     font-weight:bold;
     color:rgb(6, 21, 120);}
 
-textarea{
+.textarea1{
     width: 90%;
     padding: 12px 20px;
     margin-top: 20px;
@@ -110,7 +110,7 @@ textarea{
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;}
-input[type=submit]
+.input2
 {
     width: 200px;
     padding: 10px 10px;
@@ -125,43 +125,25 @@ input[type=submit]
 border:0px solid white
 }
 
-input[type=submit]:hover{
+.input2:hover{
     cursor: pointer;
     background-color: rgb(6, 21, 120);
     color: white;
 }
 
-.Izquierda{
-    display: none;
-    background-color :rgb(6, 21, 120);
-    align-items: center;
-    width: 25%;
-    height: 100%;
-}
-
 i {color: white;
 padding: 25px;}
-main{
+
+.principal{
     height: 100%;
     background-color: rgb(201,207,252);
     width: 50%;
 }
 
-.Derecha {
-    display: none;
-    height: 100%;
-    background-color:  rgb(6, 21, 120);
-    width: 25%;
-}
 a{color: white;}
 
 .Derecha li{list-style: none;padding: 10px;}
 
-article {
-    margin: 25px;
-    background-color: rgb(138, 152, 249);
-    margin: 2px;
-}
 
 .galeria {
   display: flex;
@@ -179,6 +161,13 @@ article {
 
 @media screen and (min-width:426px) and (max-width:1024px){
 .htmlprincipal{width: 1024px;height: 1600px;}
+
+.extraescolar{
+    margin: 25px;
+    background-color: rgb(138, 152, 249);
+    margin-left: 45px;
+    height:250px}
+
 .cont{width: 100%;height: 100%;}
 .menu{display: none;}
 #pini{
@@ -271,7 +260,7 @@ article {
     height: 1600px;
 }
 
-main{
+.principal{
     height: 100%;
     background-color: rgb(201,207,252);
     width: 90%;
@@ -285,7 +274,7 @@ main{
     padding-right: 0px;
 }
 
-article {
+.articulo {
     margin: 25px;
     width: 80%;
     background-color: rgb(138, 152, 249);
@@ -294,6 +283,11 @@ article {
 }
 @media screen and (min-width:1024px) and (max-width:1440px){
     .imageninicio{width: 1440px;height: 100%;}
+    .extraescolar{
+        margin: 25px;
+        background-color: rgb(138, 152, 249);
+        margin-left: 45px;
+        height:200px}
     .cont{width: 1440px;height: 100%;}
     .forma{height: 1024px;width: 100%;}
     #nav-menu-movil{
@@ -379,7 +373,7 @@ article {
 .menu li:hover{
     background-color:rgb(6, 21, 120);
 }
-main{
+.principal{
     height: 100%;
     background-color: rgb(201,207,252);
     width: 90%;
@@ -401,6 +395,7 @@ main{
 
 
 .Izquierda{
+    align-items: center;
     display: flex;
     background-color :rgb(6, 21, 120);
     flex-direction: column;
@@ -416,15 +411,11 @@ main{
     width: 25%;
 }
 
-article {
+.articulo {
     margin: 25px;
     background-color: rgb(138, 152, 249);
     margin-left: 45px;}
-.extraescolar{
-    margin: 25px;
-    background-color: rgb(138, 152, 249);
-    margin-left: 45px;
-    height:165px}}
+}
 
 @media screen and (min-width:320px) and (max-width:425px){
     .imageninicio{width: 425px;height: 1024px;padding-left: 0%;}
@@ -435,6 +426,12 @@ article {
     color:rgb(6, 21, 120);
     
     }
+    .extraescolar{
+        margin: 25px;
+        background-color: rgb(138, 152, 249);
+        margin-left: 45px;
+        height:390px}
+
     .pin2{
     width: 85%;
     text-align: center;
@@ -484,6 +481,14 @@ article {
         padding: 10 15px;
     }
     .htmlprincipal{height: 1024px;width: 425px;}
+
+    .extraescolar{
+        margin: 25px;
+        width: 80%;
+        background-color: rgb(138, 152, 249);
+        margin-left: 45px;
+        height:420px}
+
     #Contenedor{
             display: flex;
             flex-direction: column;
@@ -491,7 +496,7 @@ article {
             width: 425px;
             height: 1500px;
         }
-    main{
+    .principal{
     height: 100%;
     background-color: rgb(201,207,252);
     width: 90%;
@@ -513,7 +518,7 @@ article {
             height: 100%;
         }
         
-    main{
+    .principal{
             padding-left: 30px;
             height: 100%;
             background-color: rgb(201,207,252);
@@ -528,7 +533,7 @@ article {
             padding-right: 0px;
         }
         
-    article {
+    .articulo {
             
             margin: 25px;
             width: 80%;
